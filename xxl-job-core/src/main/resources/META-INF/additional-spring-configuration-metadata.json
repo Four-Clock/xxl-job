@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "xxl.job.adminAddresses",
+      "type": "java.lang.String",
+      "defaultValue": "http://127.0.0.1:8080/xxl-job-admin",
+      "description": "xxl-job admin address list, such as http://address or http://address01,http://address02."
+    },
+    {
+      "name": "xxl.job.accessToken",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.accessToken."
+    },
+    {
+      "name": "xxl.job.appName",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.executor.appName."
+    },
+    {
+      "name": "xxl.job.address",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.executor.address."
+    },
+    {
+      "name": "xxl.job.ip",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.executor.ip."
+    },
+    {
+      "name": "xxl.job.port",
+      "type": "java.lang.Integer",
+      "description": "Description for xxl.job.executor.port."
+    },
+    {
+      "name": "xxl.job.logPath",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.executor.logPath."
+    },
+    {
+      "name": "xxl.job.logRetentionDays",
+      "type": "java.lang.String",
+      "description": "Description for xxl.job.executor.logRetentionDays."
+    }
+  ] }
