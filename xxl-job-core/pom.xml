@@ -57,4 +57,31 @@
 
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<name>Nexus Respository</name>
+			<url>http://192.168.84.168:8081/nexus/content/groups/public</url>
+			<id>>Nexus Respository</id>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<name>Plugin Nexus Respository</name>
+			<url>http://192.168.84.168:8081/nexus/content/groups/public</url>
+			<id>Plugin Nexus Respository</id>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
 </project>
